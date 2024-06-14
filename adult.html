@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adult</title>
+  </head>
+  <body>
+    <nav id="myNav" class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Reading, Your First Love</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="genre.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Genres</a
+              >
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item active"
+                    aria-current="page"
+                    href="adult.html"
+                    >Adult</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="adventure.html">Adventure</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="fantasy.html">Fantasy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mystery.html">Mystery</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="romance.html">Romance</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="youngAdult.html"
+                    >Young Adult</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Supporting Black Authors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="location.html">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">My Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="card text-bg-dark">
+      <img id="genreImg" src="books/adult.jpg" class="card-img" alt="Adult" />
+      <div
+        class="card-img-overlay position-absolute top-50 start-50 translate-middle"
+      >
+        <h1 id="genreTitle" class="card-title text-center text-light" style="font-size: 75px; text-shadow: 2px 2px 4px #000000;">Adult</h1>
+      </div>
+    </div>
+    <br />
+    <div>
+      <p class="solo-quote text-center">
+        You're never to old to lose yourself in a book
+      </p>
+    </div>
+    <br />
+
+    <!--------                      Books Formatting                ------->
+    <section class="p-5">
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <!----------- Row 1 -------------->
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/allHeNeeded.jpeg"
+              class="card-img-top"
+              alt="All He Ever Needed"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">All He Ever Needed</h3>
+              <h5 id="myAuthor" class="card-text">Tay Mo'Nae</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/wantedNeeded.jpeg"
+              class="card-img-top"
+              alt="All I've Wanted, All I've Needed"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">
+                All I've Wanted, All I've Needed
+              </h3>
+              <h5 id="myAuthor" class="card-title">A.E. Valdez</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/beforeiLetGo.jpg"
+              class="card-img-top"
+              alt="Before I Let Go"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Before I Let Go</h3>
+              <h5 id="myAuthor" class="card-title">Kennedy Ryan</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/beginningForever.jpeg"
+              class="card-img-top"
+              alt="The Beginning of Forever"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Beginning of Forever</h3>
+              <h5 id="myAuthor" class="card-title">A.E. Valdez</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/bloodTrials.jpg"
+              class="card-img-top"
+              alt="The Blood Trials"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Blood Trials</h3>
+              <h5 id="myAuthor" class="card-title">N.E. Davenport</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/collidingFate.jpg"
+              class="card-img-top"
+              alt="Colliding with Fate"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Colliding with Fate</h3>
+              <h5 id="myAuthor" class="card-title">A.E. Valdez</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <!----------- Row 2 -------------->
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/faithless.jpg"
+              class="card-img-top"
+              alt="The Faithless"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Faithless</h3>
+              <h5 id="myAuthor" class="card-title">C. L. Clark</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/fakeBfFiasco.jpg"
+              class="card-img-top"
+              alt="Fake BF Fiasco"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Fake Boyfriend Fiasco</h3>
+              <h5 id="myAuthor" class="card-title">Talia Hibbert</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/grimReapLaw.jpeg"
+              class="card-img-top"
+              alt="The Grim Reaper's Lawyer"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Grim Reaper's Lawyer</h3>
+              <h5 id="myAuthor" class="card-title">Mea Monique</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/homebodies.jpg"
+              class="card-img-top"
+              alt="Homebodies"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Homebodies</h3>
+              <h5 id="myAuthor" class="card-title">Tembe Denton-Hurst</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/kingBattle.jpg"
+              class="card-img-top"
+              alt="King of Battle and Blood"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">King of Battle and Blood</h3>
+              <h5 id="myAuthor" class="card-title">Scarlett St. Clair</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/lastMinLady.jpg"
+              class="card-img-top"
+              alt="The Last Minute First Lady"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">
+                The Last Minute First Lady
+              </h3>
+              <h5 id="myAuthor" class="card-title">Tinia Montford</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!----------- Row 3 -------------->
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/legionKings.jpeg"
+              class="card-img-top"
+              alt="Legion of Kings"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Legion of Kings</h3>
+              <h5 id="myAuthor" class="card-title">Danielle James</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="books/maame.jpg" class="card-img-top" alt="Maame" />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Maame</h3>
+              <h5 id="myAuthor" class="card-title">Jessica George</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/neighborFavor.jpg"
+              class="card-img-top"
+              alt="The Neighbor Favor"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Neighbor Favor</h3>
+              <h5 id="myAuthor" class="card-title">Kristina Forest</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="books/noor.jpg" class="card-img-top" alt="Noor" />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Noor</h3>
+              <h5 id="myAuthor" class="card-title">Nnedi Okorafor</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/lastJob1.jpeg"
+              class="card-img-top"
+              alt="One Last Job"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">One Last Job</h3>
+              <h5 id="myAuthor" class="card-title">Anise Starre</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/moreShot1.jpeg"
+              class="card-img-top"
+              alt="One More Shot"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">One More Shot</h3>
+              <h5 id="myAuthor" class="card-title">Anise Starre</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <!----------- Row 4 -------------->
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/weekParadise1.jpeg"
+              class="card-img-top"
+              alt="One More Week in Paradise"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">One More Week in Paradise</h3>
+              <h5 id="myAuthor" class="card-title">Anise Starre</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/outdrawn.jpeg"
+              class="card-img-top"
+              alt="Outdrawn"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Outdrawn</h3>
+              <h5 id="myAuthor" class="card-title">Deanna Grey</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/prideProtest.jpg"
+              class="card-img-top"
+              alt="Team Player"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Pride and Protest</h3>
+              <h5 id="myAuthor" class="card-title">Nikki Payne</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/princessTrap.jpeg"
+              class="card-img-top"
+              alt="Fake BF Fiasco"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Princess Trap</h3>
+              <h5 id="myAuthor" class="card-title">Talia Hibbert</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/queenMyth.jpeg"
+              class="card-img-top"
+              alt="Queen of Myth and Monsters"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">
+                Queen of Myth and Monsters
+              </h3>
+              <h5 id="myAuthor" class="card-title">Scarlett St. Clair</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/roommateRisk.jpg"
+              class="card-img-top"
+              alt="Fake BF Fiasco"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Roommate Risk</h3>
+              <h5 id="myAuthor" class="card-title">Talia Hibbert</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <!----------- Row 5 -------------->
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/sexSensibility.jpg"
+              class="card-img-top"
+              alt="Sex, Lies and Sensibility"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Sex, Lies and Sensibility</h3>
+              <h5 id="myAuthor" class="card-title">Nikki Payne</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/singleDad.jpg"
+              class="card-img-top"
+              alt="Single Dads Club"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Single Dads Club</h3>
+              <h5 id="myAuthor" class="card-title">Therese Beharrie</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/snowKing.jpeg"
+              class="card-img-top"
+              alt="Snow King Catches His Snowflake"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">
+                Snow King Catches His Snowflake
+              </h3>
+              <h5 id="myAuthor" class="card-title">A. E. Valdez</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/sunDisposition.jpeg"
+              class="card-img-top"
+              alt="Sunny Disposition"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Sunny Disposition</h3>
+              <h5 id="myAuthor" class="card-title">Deanna Grey</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/teamPlay.jpeg"
+              class="card-img-top"
+              alt="Team Player"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">Team Player</h3>
+              <h5 id="myAuthor" class="card-title">Deanna Grey</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/unbroken.jpg"
+              class="card-img-top"
+              alt="The Grim Reaper's Lawyer"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">The Unbroken</h3>
+              <h5 id="myAuthor" class="card-title">C. L. Clark</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!----------- Row 6 -------------->
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/wintersEve.jpg"
+              class="card-img-top"
+              alt="Winter's Eve: Then, Now, and Always"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">
+                Winter's Eve: Then, Now, and Always
+              </h3>
+              <h5 id="myAuthor" class="card-title">A. E. Valdez</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/worthyLove.jpg"
+              class="card-img-top"
+              alt="A Worthy Love"
+            />
+            <div class="card-body">
+              <h3 id="myTitle" class="card-title">A Worthy Love</h3>
+              <h5 id="myAuthor" class="card-title">A. E. Valdez</h5>
+              <p id="myText" class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn" style="border-color: #20C1BD; background-color: #20C1BD; color: #fff;">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!----- <div class="col">
+          <div class="card h-100 text-center">
+            <img src="books/noor.jpg" class="card-img-top" alt="Noor" />
+            <div class="card-body">
+              <h3 class="card-title">Noor</h3>
+              <h5 class="card-title">Nnedi Okorafor</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/lastJob1.jpeg"
+              class="card-img-top"
+              alt="One Last Job"
+            />
+            <div class="card-body">
+              <h3 class="card-title">One Last Job</h3>
+              <h5 class="card-title">Anise Starre</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/moreShot1.jpeg"
+              class="card-img-top"
+              alt="One More Shot"
+            />
+            <div class="card-body">
+              <h3 class="card-title">One More Shot</h3>
+              <h5 class="card-title">Anise Starre</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/grimReapLaw.jpeg"
+              class="card-img-top"
+              alt="The Grim Reaper's Lawyer"
+            />
+            <div class="card-body">
+              <h3 class="card-title">The Grim Reaper's Lawyer</h3>
+              <h5 class="card-title">Mea Monique</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/neighborFavor.jpg"
+              class="card-img-top"
+              alt="The Neighbor Favor"
+            />
+            <div class="card-body">
+              <h3 class="card-title">The Neighbor Favor</h3>
+              <h5 class="card-title">Kristina Forest</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img
+              src="books/legionKings.jpeg"
+              class="card-img-top"
+              alt="Legion of Kings"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Legion of Kings</h3>
+              <h5 class="card-title">Danielle James</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+          <p class="lead">Copyright &copy; 2024 Reading, Your First Love</p>
+
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle" style="color: #20C1BD; display: block; margin: auto;" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+              </svg>
+        </a>
+      </div>
+  </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

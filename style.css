@@ -1,0 +1,54 @@
+/* .bgImage {
+  background-image: url(https://www.curiouscuisiniere.com/wp-content/uploads/2019/09/Honduran-enchiladas-three.j450.2.jpg); 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height :100vh;
+
+} */
+#myNav {
+  background-color: #20C1BD;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+section {
+  width: 100%;
+}
+/* div.container {
+  display: inline-block;
+  width: 100%;
+  height: 75px;
+  background: no-repeat -100px -100px/500% url(books/bookshelf.jpg)
+} */
+#genreTitle {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+#genreImg {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+#myTitle, #myAuthor {
+  font-family: 'Work Sans', sans-serif;
+}
+
+#myAuthor {
+  font-style: italic;
+}
+#myText {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+br {
+  margin-top: 100px;
+  border: none;
+}
+/* #rectangular {
+  -webkit-clip-path: inset(30px 10px 30px 10px);
+  clip-path: inset(30px 10px 30px 10px);
+} */ 
